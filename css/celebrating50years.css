@@ -1,6 +1,8 @@
 body{background:#d3b19d url(../images/bg.jpg) no-repeat top center;padding-top:20px;}
 h2{margin:0 0 0 150px;background:transparent url(../images/h2.png) no-repeat top left;width:766px;height:209px;text-indent:-4444em;}
 
+a {color:#C5A98E;}
+
 /* HIDE STUFF */
 #globalnav{display:none;}
 #aside {display:none;}
@@ -61,10 +63,17 @@ h3 {font-weight:bold; font-style:italic; font-size:2em; margin:0 0 .5em 0;}
 .intro h3 {color:#ffe; text-shadow:0 2px 5px #222; -moz-text-shadow:0 2px 5px #222; font-weight:bold; font-style:italic; font-size:2.5em;}
 .intro p {padding:1em; font-style:italic; font-size:1.5em; color:#ffe; text-shadow:0 2px 3px #000; -moz-text-shadow:0 2px 3px #000; background:rgba(0,0,0,.8); border-radius:10px 0 0 10px; -moz-border-radius:10px 0 0 10px; box-shadow:0 2px 4px #222; -moz-box-shadow:0 2px 4px #222;}
 
-.twitter {background:url(../images/twitterbird.png) no-repeat 0 0;}
-.twitter h4 {margin:0 0 1em 60px;}
+.twitter {background:url(../images/twitterbird.png) no-repeat 0 20px;}
+.twitter h3 {margin:0 0 .5em 60px;}
 
 #thanks {border-radius:0 0 10px 10px; -moz-border-radius:0 0 10px 10px;}
 
 body {xbackground: url(../../../gui/images/grid/grid.jpg) repeat-y top center !important;}
 section,#section,.section,.content {xbackground: transparent !important;}
+
+.calendar, .news, .twitter {margin-top:1.75em; border-top:1px solid #666; padding-top:1.5em;}
+.news a {color:#fff;}
+.news a strong {color:#C5A98E;}
+
+.join {border:1px solid #666; padding:1.75em 0 0 0; margin-bottom:1.75em; background:#003151; border-radius:10px;}
+.join h4 {margin-top:5px;}
