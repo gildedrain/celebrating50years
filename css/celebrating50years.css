@@ -1,34 +1,25 @@
-body{background:#d3b19d url(http://gui.sunyocc.edu/sitelets/celebrating50years/images/bg.jpg) no-repeat top center;padding-top:40px;}
-h2, h2#menutitle{text-indent:-9999em; display:block; background:transparent url(http://gui.sunyocc.edu/sitelets/celebrating50years/images/h2.png) no-repeat top left; margin-left:200px; width:766px;}
+body{background:#d3b19d url(http://gui.sunyocc.edu/sitelets/celebrating50years/images/bg.jpg) no-repeat top center;}
+#main h2, h2#menutitle{text-indent:-9999em; display:block; background:transparent url(http://gui.sunyocc.edu/sitelets/celebrating50years/images/h2.png) no-repeat top left; margin-left:200px; width:766px; padding-bottom:3em;}
 a {color:#C5A98E;}
 /* HIDE STUFF */
-#globalnav{display:none;}
-#aside {display:none;}
-#footer {background:#333; border-top:1px solid #222 !important; border-bottom:1px solid #fff !important; color:#fff; border:0; margin-top:2em; padding:2em 0 2em 0;}
-#footer a {color:#fff;}
-#footer a.logo {display:block; background-color:#333 !important; height:100px; background-position:center 0px !important; padding:0px; border-radius:5px; margin-right:1em;}
+#globalnav, #aside {display:none;}
+#main {background:transparent;}
 #section {font-family:garamond;}
 #section.hasmenu,section.hasmenu,.section.hasmenu{float:none;width:970px; margin-left:-5px; padding:0;}
-/* LOGO BADGE */
-#logo{float:left;position:absolute;top:0px;margin-left:0px;padding:15px 0 15px 0;z-index:9999999999;text-align:center;border:1px solid #fff;border-width:0 3px 2px 3px;border-radius:0 0 7px 7px;-webkit-border-radius:0 0 7px 7px;-moz-border-radius:0 0 7px 7px;background:#FFF;box-shadow:0px 1px 2px #aaa;-webkit-box-shadow:0px 1px 2px #aaa;-moz-box-shadow:0px 1px 2px #aaa;}
-#logo.col1 {width:175px !important;}
-#logo .logo{display:block;width:160px;height:110px;margin-left:14px;background:transparent url(http://gui.sunyocc.edu/sitelets/celebrating50years/images/logo.gif) no-repeat top left !important;text-indent:-9999em;}
-#logo:hover{background:#ffe;}
-#panel{margin-left:200px;}
 /* VERTY & HORZY NAVS */
-.section {padding:140px 0 140px 0;}
-.nav {padding:0; border:2px solid #C2B598; box-shadow:0 2px 5px #222; background:#ffe; background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#E4D6B8)); text-align:center; margin-bottom:1.5em; border-radius:10px; -moz-border-radius:10px;}
-.nav ul {margin:0; padding:0; height:40px;}
+.section {padding:40px 0 40px 0;}
+.nav {width:100%; padding:0; height:60px; border:2px solid #C2B598; box-shadow:0 2px 5px #222; background:#ffe; background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#E4D6B8)); text-align:center; margin-bottom:1.5em; border-radius:10px; -moz-border-radius:10px;}
+.nav ul {margin:0; padding:0;}
 .nav li {border-bottom:0px solid #ccc; list-style:none; margin:0; padding:0; display:inline-block;}
 .ie7 .nav li {display:block; float:left; width:auto;}
 .nav a {color:#222; display:block; padding:15px; line-height:1.75em;}
 .nav a:hover {text-decoration:none; background:#574C43; background: -webkit-gradient(linear, left top, left bottom, from(#61564C), to(#3D3934)); color:#fff; text-shadow:0 0 3px #fc0; -moz-text-shadow:0 0 3px #fc0;}
-.nav.flat {width:100%; position:fixed; top:40px; padding:0; background:#000; background:rgba(0,0,0,.8); border:0; border-radius:0; -moz-border-radius:0;}
-.nav.flat ul {height:auto; width:970px; padding:10px 0 0 0; margin:0 auto; height:40px;}
+.nav.flat {width:100%; position:fixed; padding:0; background:#000; background:rgba(0,0,0,.8); border:0; border-radius:0; -moz-border-radius:0;}
+.nav.flat ul {height:auto; width:970px; padding:10px 0 10px 0; margin:0 auto;}
 .nav.flat li {display:inline-block; margin:0 5px 0 0; padding:0; border:0; line-height:1em; text-align:center;}
 .nav.flat a {display:block; color:#ffe;}
 .nav.flat a:hover {color:#fc0; text-decoration:none; background:transparent;}
-.nav.flat a.current {color:#Fc0; text-shadow:0 0px 5px #FFF; -moz-text-shadow:0 0 5px #fff;}
+.nav.flat a.current {color:#Fc0; text-shadow:0 0px 5px #FFF; -moz-text-shadow:0 0 5px #fff; background:none;}
 .slider {width:950px; overflow:hidden;}
 .slides {width:10000px; overflow:hidden;}
 .slide {width:950px; float:left; height:auto;}
@@ -39,7 +30,7 @@ a {color:#C5A98E;}
 .slidernav a:hover {text-decoration:none; border-color:#ffe;}
 .slidernav a.current {color:#222; border-color:#fc0; background:#ecd773;}
 /* TYPOGRAPHY */
-h3 {font-weight:bold; font-style:italic; font-size:2em; margin:0 0 .5em 0;}
+#main h3 {font-weight:bold; font-style:italic; font-size:2em; margin:0 0 .5em 0;}
 .ie7, .ie8 {font-size:90%;}
 .ie7 h3, .ie8 h3 {font-size:1.75em;}
 #social h3, #thanks h3 {text-shadow:0 2px 2px #222; -moz-text-shadow:0 2px 2px #222;}
@@ -47,7 +38,7 @@ h3 {font-weight:bold; font-style:italic; font-size:2em; margin:0 0 .5em 0;}
 .intro h3 {color:#ffe; text-shadow:0 2px 5px #222; -moz-text-shadow:0 2px 5px #222; font-weight:bold; font-style:italic; font-size:2.25em;}
 .intro p {height:400px; padding:10px; font-style:italic; font-size:1.35em; color:#ffe; text-shadow:0 2px 3px #000; -moz-text-shadow:0 2px 3px #000; background:#000; background:rgba(0,0,0,.8); border-radius:10px 0 0 10px; -moz-border-radius:10px 0 0 10px; box-shadow:0 2px 4px #222; -moz-box-shadow:0 2px 4px #222;}
 .twitter {background:url(http://gui.sunyocc.edu/sitelets/celebrating50years/images/twitterbird.png) no-repeat 0 20px;}
-.twitter h3 {margin:0 0 .5em 60px;}
+#main .twitter h3 {margin:0 0 .5em 60px;}
 #thanks {border-radius:0 0 10px 10px; -moz-border-radius:0 0 10px 10px;}
 .calendar, .news, .twitter {margin-top:1.75em; border-top:1px solid #666; padding-top:1.5em;}
 .news a {color:#fff;}
