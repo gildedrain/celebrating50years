@@ -3,7 +3,7 @@ body{background:#d3b19d url(http://gui.sunyocc.edu/sitelets/celebrating50years/i
 a {color:#C5A98E;}
 /* HIDE STUFF */
 #globalnav, #aside {display:none;}
-#main {background:transparent;}
+#main {background:transparent;border:none;box-shadow:none;}
 #section {font-family:garamond;}
 #section.hasmenu,section.hasmenu,.section.hasmenu{float:none;width:970px; margin-left:-5px; padding:0;}
 /* VERTY & HORZY NAVS */
