@@ -31,8 +31,8 @@ a {color:#C5A98E;}
 .slidernav a.current {color:#222; border-color:#fc0; background:#ecd773;}
 /* TYPOGRAPHY */
 #main h3 {font-weight:bold; font-style:italic; font-size:2em; margin:0 0 .5em 0;}
-.ie7, .ie8 {font-size:90%;}
-.ie7 h3, .ie8 h3 {font-size:1.75em;}
+.ie {font-size:90%;}
+.ie h3 {font-size:1.75em;}
 #social h3, #thanks h3 {text-shadow:0 2px 2px #222; -moz-text-shadow:0 2px 2px #222;}
 #timeline h3 {color:#333;}
 .intro h3 {color:#ffe; text-shadow:0 2px 5px #222; -moz-text-shadow:0 2px 5px #222; font-weight:bold; font-style:italic; font-size:2.25em;}
