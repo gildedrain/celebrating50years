@@ -1,9 +1,9 @@
 body{background:#d3b19d url(http://gui.sunyocc.edu/sitelets/celebrating50years/images/bg.jpg) no-repeat top center;}
-#main h2, h2#menutitle{text-indent:-9999em; display:block; background:transparent url(http://gui.sunyocc.edu/sitelets/celebrating50years/images/h2.png) no-repeat top left; margin-left:200px; width:766px; padding-bottom:3em;}
+.main h2, h2#menutitle{text-indent:-9999em; display:block; background:transparent url(http://gui.sunyocc.edu/sitelets/celebrating50years/images/h2.png) no-repeat top left; margin-left:200px; width:766px; padding-bottom:3em;}
 a {color:#C5A98E;}
 /* HIDE STUFF */
 #globalnav, #aside {display:none;}
-#main {background:transparent;border:none;box-shadow:none;}
+.main {background:transparent;border:none;box-shadow:none;}
 #section {font-family:garamond;}
 #section.hasmenu,section.hasmenu,.section.hasmenu{float:none;width:970px; margin-left:-5px; padding:0;}
 /* VERTY & HORZY NAVS */
@@ -30,7 +30,7 @@ a {color:#C5A98E;}
 .slidernav a:hover {text-decoration:none; border-color:#ffe;}
 .slidernav a.current {color:#222; border-color:#fc0; background:#ecd773;}
 /* TYPOGRAPHY */
-#main h3 {font-weight:bold; font-style:italic; font-size:2em; margin:0 0 .5em 0;}
+.main h3 {font-weight:bold; font-style:italic; font-size:2em; margin:0 0 .5em 0;}
 .ie {font-size:90%;}
 .ie h3 {font-size:1.75em;}
 #social h3, #thanks h3 {text-shadow:0 2px 2px #222; -moz-text-shadow:0 2px 2px #222;}
@@ -38,7 +38,7 @@ a {color:#C5A98E;}
 .intro h3 {color:#ffe; text-shadow:0 2px 5px #222; -moz-text-shadow:0 2px 5px #222; font-weight:bold; font-style:italic; font-size:2.25em;}
 .intro p {height:400px; padding:10px; font-style:italic; font-size:1.35em; color:#ffe; text-shadow:0 2px 3px #000; -moz-text-shadow:0 2px 3px #000; background:#000; background:rgba(0,0,0,.8); border-radius:10px 0 0 10px; -moz-border-radius:10px 0 0 10px; box-shadow:0 2px 4px #222; -moz-box-shadow:0 2px 4px #222;}
 .twitter {background:url(http://gui.sunyocc.edu/sitelets/celebrating50years/images/twitterbird.png) no-repeat 0 20px;}
-#main .twitter h3 {margin:0 0 .5em 60px;}
+.main .twitter h3 {margin:0 0 .5em 60px;}
 #thanks {border-radius:0 0 10px 10px; -moz-border-radius:0 0 10px 10px;}
 .calendar, .news, .twitter {margin-top:1.75em; border-top:1px solid #666; padding-top:1.5em;}
 .news a {color:#fff;}
